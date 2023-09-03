@@ -2,3 +2,19 @@ How to run:
 
 1.Open POM.xml file
 2.Right click on it and run ->Maven install
+
+
+Approaches:
+A) 
+1.Created base file with the driver initiation and close methods.
+2.created a ReadWebTable class which contains methods to fetch the data from webtable in List
+3.stored it in a csv file with current date and timestamp
+
+B)
+1.Created FileDowunload class by extending the Base class which will download the file in the Downloads folder
+2.Created FileUpload class to upload the file
+
+C)
+1.Created FetchUELData class for fetch the JSON data from the URL and prit it on consol
+
+ Note:Project is partially running.
