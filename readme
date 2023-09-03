@@ -1,0 +1,4 @@
+How to run:
+
+1.Open POM.xml file
+2.Right click on it and run ->Maven install
